@@ -13,7 +13,7 @@ const Header = () => {
             <span className={'username'}>
                 {user?.username}
             </span>
-            <p>user?.photo_url</p>
+            <p>{user?.photo_url}</p>
             <Link to="/account">Личный кабинет</Link>
 
         </div>
