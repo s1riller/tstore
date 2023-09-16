@@ -13,7 +13,7 @@ const Header = () => {
             <span className={'username'}>
                 {user?.username}
             </span>
-            <img src={user?.photo_url} alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaQu89zWRmRCDKNG7AjhNOlozVWSRCax9mWii8hWlzzYHSSPlPHz8AbCr2iOJfJIWdws&usqp=CAU" />
+            <p>user?.photo_url</p>
             <Link to="/account">Личный кабинет</Link>
 
         </div>
