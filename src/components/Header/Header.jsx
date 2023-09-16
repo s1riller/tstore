@@ -12,7 +12,7 @@ const Header = () => {
             <span className={'username'}>
                 {user?.username}
             </span>
-            <Link to="/account">Личный кабинет</Link>
+            <Button to="/account">Личный кабинет</Button>
 
         </div>
     );
