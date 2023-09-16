@@ -13,6 +13,7 @@ const Header = () => {
             <span className={'username'}>
                 {user?.username}
             </span>
+            <img src={'user?.photo_url'} alt="as" />
             <Link to="/account">Личный кабинет</Link>
 
         </div>
