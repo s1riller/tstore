@@ -13,7 +13,7 @@ const Header = () => {
             <span className={'username'}>
                 {user?.username}
             </span>
-            <img src={user?.photo_url} alt="https://assetsio.reedpopcdn.com/Modern-Warfare-2-Ghost-(2).jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp" />
+            <img src={user?.photo_url} alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaQu89zWRmRCDKNG7AjhNOlozVWSRCax9mWii8hWlzzYHSSPlPHz8AbCr2iOJfJIWdws&usqp=CAU" />
             <Link to="/account">Личный кабинет</Link>
 
         </div>
